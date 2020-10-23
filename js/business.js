@@ -16,7 +16,7 @@ $(function () {
             text: 'Total Jobs by Sector'
         },
         subtitle: {
-            text: 'Snapshot 2017 business quarter 4'
+            text: 'QCEW (2020 business quarter 1)'
         },
         xAxis: {
             categories: ['Bethesda - Chevy Chase','Silver Spring','International Corridor','University of Maryland', 'Riverdale - New Carrollton']
@@ -38,17 +38,17 @@ $(function () {
         },
         series: [{
             name: 'Office',
-            data: [22633, 14791, 4640, 21523, 12976]
+            data: [25060, 27169, 4096, 21731, 12440]
         }, {
             name: 'Retail',
-            data: [6382,2153,1307,380,1326]
+            data: [7097,2204,1360,322,1304]
         }, {
             name: 'Industrial',
-            data: [449,357,70,19,624]
+            data: [442,422,116,19,631]
             
         }, {
             name: 'Other',
-            data: [19602,11589,2421,1761,9843]
+            data: [21818,11202,2344,2310,10754]
         },]
     });
 });
