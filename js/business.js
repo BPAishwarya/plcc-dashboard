@@ -224,7 +224,7 @@ $(function () {
             text: 'Total Number of Jobs by Firm Size'
         },
         subtitle: {
-                text: 'Source:QCEW (2017 business quarter 4)' 
+                text: 'Source:QCEW (2020 business quarter 1)' 
         },
         xAxis: {
             categories: ['Bethesda - Chevy Chase', 'Silver Spring', 'International Corridor', 'University of Maryland', 'Riverdale - New Carrollton']
@@ -263,19 +263,19 @@ $(function () {
         },
         series: [{
             name: 'Less than 5',
-            data: [1623,1152,537,151,324]
+            data: [2222,1650,735,273,596]
         }, {
             name: '5-9',
-            data: [341,297,115,58,116]
+            data: [2355,2075,906,332,785]
         }, {
             name: '10-19',
-            data: [282,221,67,29,85]
+            data: [3804,2999,875,593,1136]
         }, {
             name: '20-49',
-            data: [216,168,63,36,72]
+            data: [6314,5784,1531,898,1963]
         }, {
             name: '>50',
-            data: [168,124,28,22,49]
+            data: [39722,28489,3869,22286,20649]
         }]
     });
 });
